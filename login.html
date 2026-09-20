@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Library Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-body">
+
+    <div class="login-container">
+
+        <div class="login-left">
+
+            <div class="login-brand">
+                <div class="brand-icon">📚</div>
+
+                <h1>ReadPoint</h1>
+
+                <p>
+                    Your digital gateway to knowledge
+                </p>
+            </div>
+
+            <div class="login-decoration">
+                <div class="book-shape book-one">📕</div>
+                <div class="book-shape book-two">📘</div>
+                <div class="book-shape book-three">📗</div>
+            </div>
+
+        </div>
+
+
+        <div class="login-right">
+
+            <div class="login-form">
+
+                <span class="welcome-text">
+                    WELCOME BACK
+                </span>
+
+                <h2>Sign in to your account</h2>
+
+                <p class="login-description">
+                    Access your books, borrowing history and library resources.
+                </p>
+
+
+                <!-- Login form -->
+                <!-- Any entered username/password will go to dashboard -->
+
+                <form action="dashboard.html">
+
+                    <label for="username">
+                        Username
+                    </label>
+
+                    <input
+                        type="text"
+                        id="username"
+                        placeholder="Enter your username"
+                    >
+
+
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                    >
+
+
+                    <div class="login-options">
+
+                        <label class="remember">
+                            <input type="checkbox">
+                            Remember me
+                        </label>
+
+                        <a href="#">
+                            Forgot password?
+                        </a>
+
+                    </div>
+
+
+                    <button type="submit" class="login-button">
+                        Sign In →
+                    </button>
+
+                </form>
+
+
+                <p class="login-footer">
+                    Student Library Management System
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

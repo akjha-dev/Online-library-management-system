@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>My Books</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="dashboard-layout">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+                📚
+            </div>
+
+            <div>
+
+                <h2>ReadPoint</h2>
+
+                <span>
+                    Digital Library
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="profile-box">
+
+            <div class="profile-avatar">
+                A
+            </div>
+
+            <div>
+
+                <strong>
+                    Student
+                </strong>
+
+                <span>
+                    Library Member
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <nav class="sidebar-menu">
+
+            <a href="dashboard.html">
+                <span>▣</span>
+                Dashboard
+            </a>
+
+            <a href="available-books.html">
+                <span>📖</span>
+                Available Books
+            </a>
+
+            <a href="my-books.html"
+               class="active">
+
+                <span>🔖</span>
+                My Books
+
+            </a>
+
+            <a href="issued-books.html">
+                <span>📋</span>
+                Issued Books
+            </a>
+
+            <a href="library-info.html">
+                <span>ℹ️</span>
+                Library Info
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <a href="login.html">
+
+                <span>↪</span>
+                Logout
+
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+
+        <header class="topbar">
+
+            <div>
+
+                <span class="small-heading">
+                    PERSONAL COLLECTION
+                </span>
+
+                <h1>My Books</h1>
+
+            </div>
+
+
+            <div class="user-mini">
+
+                <div class="mini-avatar">
+                    A
+                </div>
+
+                <div>
+
+                    <strong>
+                        Student
+                    </strong>
+
+                    <small>
+                        Member
+                    </small>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <div class="page-heading">
+
+            <h2>
+                Books you're currently reading 📚
+            </h2>
+
+            <p>
+                Keep track of your borrowed books and return dates.
+            </p>
+
+        </div>
+
+
+
+        <!-- MY BOOK CARDS -->
+
+        <div class="my-books-grid">
+
+
+            <div class="my-book-card">
+
+                <div class="my-book-top">
+
+                    <div class="large-cover blue-cover">
+                        JAVA
+                    </div>
+
+                    <span class="reading-badge">
+                        Reading
+                    </span>
+
+                </div>
+
+
+                <h2>
+                    Java Programming
+                </h2>
+
+                <p class="author">
+                    Herbert Schildt
+                </p>
+
+
+                <div class="date-info">
+
+                    <div>
+
+                        <span>
+                            Issue Date
+                        </span>
+
+                        <strong>
+                            10 Sep 2026
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Return Date
+                        </span>
+
+                        <strong class="danger-text">
+                            25 Sep 2026
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="progress-line">
+
+                    <div></div>
+
+                </div>
+
+
+                <p class="days-left">
+                    5 days remaining
+                </p>
+
+            </div>
+
+
+
+            <div class="my-book-card">
+
+                <div class="my-book-top">
+
+                    <div class="large-cover green-cover">
+                        DB
+                    </div>
+
+                    <span class="reading-badge">
+                        Reading
+                    </span>
+
+                </div>
+
+
+                <h2>
+                    Database System Concepts
+                </h2>
+
+                <p class="author">
+                    R. Elmasri
+                </p>
+
+
+                <div class="date-info">
+
+                    <div>
+
+                        <span>
+                            Issue Date
+                        </span>
+
+                        <strong>
+                            12 Sep 2026
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Return Date
+                        </span>
+
+                        <strong>
+                            30 Sep 2026
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="progress-line green-progress">
+
+                    <div></div>
+
+                </div>
+
+
+                <p class="days-left green-text">
+                    10 days remaining
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- INFORMATION -->
+
+        <div class="info-banner">
+
+            <span>
+                💡
+            </span>
+
+            <div>
+
+                <strong>
+                    Borrowing reminder
+                </strong>
+
+                <p>
+                    You can keep a book for up to 15 days.
+                    Please return it before the due date.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+</div>
+
+
+</body>
+</html>

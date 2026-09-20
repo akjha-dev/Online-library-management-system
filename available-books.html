@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Available Books</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="dashboard-layout">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+                📚
+            </div>
+
+            <div>
+                <h2>ReadPoint</h2>
+                <span>Digital Library</span>
+            </div>
+
+        </div>
+
+
+        <div class="profile-box">
+
+            <div class="profile-avatar">
+                A
+            </div>
+
+            <div>
+                <strong>Student</strong>
+                <span>Library Member</span>
+            </div>
+
+        </div>
+
+
+        <nav class="sidebar-menu">
+
+            <a href="dashboard.html">
+                <span>▣</span>
+                Dashboard
+            </a>
+
+            <a href="available-books.html"
+               class="active">
+                <span>📖</span>
+                Available Books
+            </a>
+
+            <a href="my-books.html">
+                <span>🔖</span>
+                My Books
+            </a>
+
+            <a href="issued-books.html">
+                <span>📋</span>
+                Issued Books
+            </a>
+
+            <a href="library-info.html">
+                <span>ℹ️</span>
+                Library Info
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <a href="login.html">
+                <span>↪</span>
+                Logout
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+
+        <header class="topbar">
+
+            <div>
+
+                <span class="small-heading">
+                    LIBRARY COLLECTION
+                </span>
+
+                <h1>Available Books</h1>
+
+            </div>
+
+            <div class="user-mini">
+
+                <div class="mini-avatar">
+                    A
+                </div>
+
+                <div>
+
+                    <strong>Student</strong>
+
+                    <small>
+                        Member
+                    </small>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- PAGE INTRO -->
+
+        <div class="page-intro">
+
+            <div>
+
+                <h2>
+                    Explore our collection 📖
+                </h2>
+
+                <p>
+                    Find your next book from our available collection.
+                </p>
+
+            </div>
+
+
+            <div class="search-box">
+
+                🔎
+
+                <input
+                    type="text"
+                    placeholder="Search books..."
+                >
+
+            </div>
+
+        </div>
+
+
+
+        <!-- BOOK TABLE -->
+
+        <div class="table-card">
+
+            <div class="table-title">
+
+                <div>
+
+                    <span class="small-heading">
+                        BOOK CATALOG
+                    </span>
+
+                    <h2>
+                        Available Books
+                    </h2>
+
+                </div>
+
+                <span class="book-count">
+                    8 Books Found
+                </span>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Book</th>
+
+                            <th>Author</th>
+
+                            <th>Category</th>
+
+                            <th>Status</th>
+
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>
+
+                                <div class="table-book">
+
+                                    <div class="small-cover blue-cover">
+                                        JAVA
+                                    </div>
+
+                                    <div>
+                                        <strong>
+                                            Java Programming
+                                        </strong>
+
+                                        <small>
+                                            ISBN: 978-007
+                                        </small>
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+                                Herbert Schildt
+                            </td>
+
+                            <td>
+                                Programming
+                            </td>
+
+                            <td>
+                                <span class="available-badge">
+                                    Available
+                                </span>
+                            </td>
+
+                            <td>
+                                <a href="my-books.html"
+                                   class="issue-button">
+                                    Issue Book
+                                </a>
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+
+                                <div class="table-book">
+
+                                    <div class="small-cover green-cover">
+                                        DB
+                                    </div>
+
+                                    <div>
+                                        <strong>
+                                            Database Systems
+                                        </strong>
+
+                                        <small>
+                                            ISBN: 978-013
+                                        </small>
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+                                R. Elmasri
+                            </td>
+
+                            <td>
+                                Database
+                            </td>
+
+                            <td>
+                                <span class="available-badge">
+                                    Available
+                                </span>
+                            </td>
+
+                            <td>
+                                <a href="my-books.html"
+                                   class="issue-button">
+                                    Issue Book
+                                </a>
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+
+                                <div class="table-book">
+
+                                    <div class="small-cover purple-cover">
+                                        OS
+                                    </div>
+
+                                    <div>
+                                        <strong>
+                                            Operating System Concepts
+                                        </strong>
+
+                                        <small>
+                                            ISBN: 978-111
+                                        </small>
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+                                Silberschatz
+                            </td>
+
+                            <td>
+                                Operating System
+                            </td>
+
+                            <td>
+                                <span class="available-badge">
+                                    Available
+                                </span>
+                            </td>
+
+                            <td>
+                                <a href="my-books.html"
+                                   class="issue-button">
+                                    Issue Book
+                                </a>
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+
+                                <div class="table-book">
+
+                                    <div class="small-cover orange-cover">
+                                        CN
+                                    </div>
+
+                                    <div>
+                                        <strong>
+                                            Computer Networks
+                                        </strong>
+
+                                        <small>
+                                            ISBN: 978-013
+                                        </small>
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+                                Andrew Tanenbaum
+                            </td>
+
+                            <td>
+                                Networking
+                            </td>
+
+                            <td>
+                                <span class="available-badge">
+                                    Available
+                                </span>
+                            </td>
+
+                            <td>
+                                <a href="my-books.html"
+                                   class="issue-button">
+                                    Issue Book
+                                </a>
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+
+                                <div class="table-book">
+
+                                    <div class="small-cover red-cover">
+                                        DSA
+                                    </div>
+
+                                    <div>
+                                        <strong>
+                                            Data Structures
+                                        </strong>
+
+                                        <small>
+                                            ISBN: 978-026
+                                        </small>
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+                                Mark Allen Weiss
+                            </td>
+
+                            <td>
+                                Computer Science
+                            </td>
+
+                            <td>
+                                <span class="available-badge">
+                                    Available
+                                </span>
+
+                            </td>
+
+                            <td>
+
+                                <a href="my-books.html"
+                                   class="issue-button">
+
+                                    Issue Book
+
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+
+                                <div class="table-book">
+
+                                    <div class="small-cover teal-cover">
+                                        AI
+                                    </div>
+
+                                    <div>
+
+                                        <strong>
+                                            Artificial Intelligence
+                                        </strong>
+
+                                        <small>
+                                            ISBN: 978-013
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+                                Stuart Russell
+                            </td>
+
+                            <td>
+                                Artificial Intelligence
+                            </td>
+
+                            <td>
+
+                                <span class="available-badge">
+                                    Available
+                                </span>
+
+                            </td>
+
+                            <td>
+
+                                <a href="my-books.html"
+                                   class="issue-button">
+
+                                    Issue Book
+
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+</div>
+
+
+</body>
+</html>

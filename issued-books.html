@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Issued Books</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="dashboard-layout">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+                📚
+            </div>
+
+            <div>
+
+                <h2>
+                    ReadPoint
+                </h2>
+
+                <span>
+                    Digital Library
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="profile-box">
+
+            <div class="profile-avatar">
+                A
+            </div>
+
+            <div>
+
+                <strong>
+                    Student
+                </strong>
+
+                <span>
+                    Library Member
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <nav class="sidebar-menu">
+
+            <a href="dashboard.html">
+                <span>▣</span>
+                Dashboard
+            </a>
+
+            <a href="available-books.html">
+                <span>📖</span>
+                Available Books
+            </a>
+
+            <a href="my-books.html">
+                <span>🔖</span>
+                My Books
+            </a>
+
+            <a href="issued-books.html"
+               class="active">
+
+                <span>📋</span>
+                Issued Books
+
+            </a>
+
+            <a href="library-info.html">
+
+                <span>ℹ️</span>
+                Library Info
+
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <a href="login.html">
+
+                <span>↪</span>
+                Logout
+
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+
+        <header class="topbar">
+
+            <div>
+
+                <span class="small-heading">
+                    BORROWING RECORD
+                </span>
+
+                <h1>
+                    Issued Books
+                </h1>
+
+            </div>
+
+
+            <div class="user-mini">
+
+                <div class="mini-avatar">
+                    A
+                </div>
+
+                <div>
+
+                    <strong>
+                        Student
+                    </strong>
+
+                    <small>
+                        Member
+                    </small>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <div class="page-heading">
+
+            <h2>
+                Your borrowing history 📋
+            </h2>
+
+            <p>
+                View all books issued to your library account.
+            </p>
+
+        </div>
+
+
+
+        <!-- SUMMARY -->
+
+        <div class="mini-stats">
+
+
+            <div>
+
+                <span>
+                    TOTAL ISSUED
+                </span>
+
+                <strong>
+                    08
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    CURRENTLY ACTIVE
+                </span>
+
+                <strong>
+                    02
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    RETURNED
+                </span>
+
+                <strong>
+                    06
+                </strong>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- ISSUE HISTORY TABLE -->
+
+        <div class="table-card">
+
+            <div class="table-title">
+
+                <div>
+
+                    <span class="small-heading">
+                        TRANSACTION HISTORY
+                    </span>
+
+                    <h2>
+                        Issued Book Details
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Book</th>
+
+                            <th>Issue Date</th>
+
+                            <th>Return Date</th>
+
+                            <th>Status</th>
+
+                            <th>Fine</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>
+                                Java Programming
+                            </td>
+
+                            <td>
+                                10 Sep 2026
+                            </td>
+
+                            <td>
+                                25 Sep 2026
+                            </td>
+
+                            <td>
+
+                                <span class="active-badge">
+                                    Active
+                                </span>
+
+                            </td>
+
+                            <td>
+                                ₹0
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+                                Database System Concepts
+                            </td>
+
+                            <td>
+                                12 Sep 2026
+                            </td>
+
+                            <td>
+                                30 Sep 2026
+                            </td>
+
+                            <td>
+
+                                <span class="active-badge">
+                                    Active
+                                </span>
+
+                            </td>
+
+                            <td>
+                                ₹0
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+                                Data Structures
+                            </td>
+
+                            <td>
+                                15 Aug 2026
+                            </td>
+
+                            <td>
+                                30 Aug 2026
+                            </td>
+
+                            <td>
+
+                                <span class="returned-badge">
+                                    Returned
+                                </span>
+
+                            </td>
+
+                            <td>
+                                ₹0
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+                                Computer Networks
+                            </td>
+
+                            <td>
+                                05 Aug 2026
+                            </td>
+
+                            <td>
+                                20 Aug 2026
+                            </td>
+
+                            <td>
+
+                                <span class="returned-badge">
+                                    Returned
+                                </span>
+
+                            </td>
+
+                            <td>
+                                ₹0
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>
+                                Operating System
+                            </td>
+
+                            <td>
+                                10 Jul 2026
+                            </td>
+
+                            <td>
+                                25 Jul 2026
+                            </td>
+
+                            <td>
+
+                                <span class="returned-badge">
+                                    Returned
+                                </span>
+
+                            </td>
+
+                            <td>
+                                ₹0
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+</div>
+
+
+</body>
+</html>
